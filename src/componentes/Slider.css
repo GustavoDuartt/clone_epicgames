@@ -1,0 +1,79 @@
+.step1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+.slider {
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 65vw;
+    height: 70vh;
+    margin-right: 25%;
+    overflow: hidden;
+    margin-block-end: 5px;
+}
+
+.slides {
+    width: 400%;
+    flex-wrap: wrap;
+    height: 70vh;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    transition: 2s;
+    width: 25%;
+    height: 100%;
+    position: relative;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+}
+
+.manual-navigation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+    top: 3px;
+}
+
+.manual-btn {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 20px;
+}
+
+.manual-btn:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}

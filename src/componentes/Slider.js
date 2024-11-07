@@ -24,16 +24,28 @@ function Slider() {
 
                     {/* Slides */}
                     <div className='slide first'>
-                        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/f8f314104964585.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="Slide 1" />
+                        <div id="text-slide">
+                            <button id="btn-comprar">Compre agora</button>
+                        </div>
+                        <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8" alt="Slide 1" />
                     </div>
                     <div className='slide'>
-                        <img src="https://cdn-0001.qstv.on.epicgames.com/LyYVOGxXNCxdKejQUO/image/landscape_comp.jpeg" alt="Slide 2" />
+                        <div id="text-slide">
+                            <button id="btn-comprar">Compre agora</button>
+                        </div>
+                        <img src="https://preview.redd.it/subreddit-icon-banner-remake-poll-v0-8x3avh91tvkd1.png?width=2560&format=png&auto=webp&s=5ed458e441a74ede36c3e808bbbe8ff34c0df545" alt="Slide 2" />
                     </div>
                     <div className='slide'>
-                        <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2022/01/10/valorant-neon-guide-abilities-how-to-play-tips-tricks.jpg?width=1200&quality=60&format=auto" alt="Slide 3" />
+                        <div id="text-slide">
+                            <button id="btn-comprar">Compre agora</button>
+                        </div>
+                        <img src="https://preview.redd.it/99y2mf66kqh21.jpg?auto=webp&s=c9b128105150c65e2ea725ddf4b080a9270fb2fe" alt="Slide 3" />
                     </div>
                     <div className='slide'>
-                        <img src="https://sm.ign.com/ign_br/game/g/god-of-war/god-of-war-ragnarok_z48t.jpg" alt="Slide 4" />
+                        <div id="text-slide">
+                            <button id="btn-comprar">Compre agora</button>
+                        </div>
+                        <img src="https://psxbrasil.com.br/wp-content/uploads/2020/02/EQgBBE1XkAAbPOS.jpg" alt="Slide 4" />
                     </div>
 
                     {/* Navegação automática (não visível mas para facilitar a troca de slides) */}
@@ -51,6 +63,25 @@ function Slider() {
                     <label htmlFor="radio2" className='manual-btn'></label>
                     <label htmlFor="radio3" className='manual-btn'></label>
                     <label htmlFor="radio4" className='manual-btn'></label>
+                </div>
+            </div>
+
+            <div className='card-slide'>
+                <div className='card'>
+                    <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8" alt="Slide 1" />
+                    <p>Tomb Raider</p>
+                </div>
+                <div className='card'>
+                    <img src="https://preview.redd.it/subreddit-icon-banner-remake-poll-v0-8x3avh91tvkd1.png?width=2560&format=png&auto=webp&s=5ed458e441a74ede36c3e808bbbe8ff34c0df545" alt="Slide 2" />
+                    <p>Until Down</p>
+                </div>
+                <div className='card'>
+                    <img src="https://preview.redd.it/99y2mf66kqh21.jpg?auto=webp&s=c9b128105150c65e2ea725ddf4b080a9270fb2fe" alt="Slide 3" />
+                    <p>Rainbow six</p>
+                </div>
+                <div className='card'>
+                    <img src="https://psxbrasil.com.br/wp-content/uploads/2020/02/EQgBBE1XkAAbPOS.jpg" alt="Slide 4" />
+                    <p>The last of Us</p>
                 </div>
             </div>
         </div>

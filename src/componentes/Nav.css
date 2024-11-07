@@ -20,7 +20,7 @@ html, body {
     color: white;
     display: flex;
     flex-direction: row;
-    padding: 30px 13px;
+    padding: 30px 13px 1px;
 }
 
 .SegundaNav {

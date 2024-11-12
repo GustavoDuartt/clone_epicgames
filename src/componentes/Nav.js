@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
+
 import './Nav.css';
-import logo from './Epic-Games-Simbolo-transformed.png'
-import globo from './globo.png'
-import seta from './seta-para-baixo.png'
-import lupa from './pesquisa.png'
+import logo from './imgs/Epic-Games-Simbolo-transformed.png'
+import globo from './imgs/globo.png'
+import seta from './imgs/seta-para-baixo.png'
+import lupa from './imgs/pesquisa.png'
 
 function Nav() {
     return (

@@ -25,25 +25,29 @@ function Slider() {
                     {/* Slides */}
                     <div className='slide first'>
                         <div id="text-slide">
-                            <button id="btn-comprar">Compre agora</button>
+                            <h4>Gratuito</h4>
+                            <button id="btn-comprar">Jogue agora</button>
                         </div>
                         <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_TombRaiderGAMEOFTHEYEAREDITION_CrystalDynamics_S1_2560x1440-0c41fcc8db62992e8d098d304b2277f8" alt="Slide 1" />
                     </div>
                     <div className='slide'>
                         <div id="text-slide">
+                            <h4>R$ 80,00</h4>
                             <button id="btn-comprar">Compre agora</button>
                         </div>
                         <img src="https://preview.redd.it/subreddit-icon-banner-remake-poll-v0-8x3avh91tvkd1.png?width=2560&format=png&auto=webp&s=5ed458e441a74ede36c3e808bbbe8ff34c0df545" alt="Slide 2" />
                     </div>
                     <div className='slide'>
                         <div id="text-slide">
+                            <h4>Novidade</h4>
                             <button id="btn-comprar">Compre agora</button>
                         </div>
                         <img src="https://preview.redd.it/99y2mf66kqh21.jpg?auto=webp&s=c9b128105150c65e2ea725ddf4b080a9270fb2fe" alt="Slide 3" />
                     </div>
                     <div className='slide'>
                         <div id="text-slide">
-                            <button id="btn-comprar">Compre agora</button>
+                            <h4>Gratuito</h4>
+                            <button id="btn-comprar">Jogue agora</button>
                         </div>
                         <img src="https://psxbrasil.com.br/wp-content/uploads/2020/02/EQgBBE1XkAAbPOS.jpg" alt="Slide 4" />
                     </div>

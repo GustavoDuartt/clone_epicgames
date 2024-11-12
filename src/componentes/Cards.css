@@ -1,0 +1,33 @@
+.App1 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.App1 h2 {
+    font-size: 150%;
+    margin: 2% 9%;
+}
+
+  .sdd {
+    font-size: 34px;
+    color: red;
+  }
+  
+#main-slider-container {
+    width: 80%;
+    margin-left: 8%;
+    color: black;
+}
+
+.slider-card {
+    width: 207px;
+    color: white;
+    background-color: rgb(22, 22, 22);
+    box-shadow: none;
+}
+
+.slider-card-image {
+    height: 240px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

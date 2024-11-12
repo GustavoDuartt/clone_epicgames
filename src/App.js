@@ -1,18 +1,15 @@
-import logo from './logo.svg';
 import Nav from './componentes/Nav';
 import Slider from './componentes/Slider';
 import './App.css';
+import Cards from './componentes/Cards';
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Slider/>
-      <h1>a</h1>
-      <h1>a</h1>
-      <h1>a</h1>
-      <h1>a</h1>
-      <h1>a</h1>
+      <Cards/>
+      <p>.</p>
     </div>
   );
 }

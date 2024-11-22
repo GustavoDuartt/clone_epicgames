@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/clone_epicgames/static/css/main.76e144ab.css",
+    "main.js": "/clone_epicgames/static/js/main.272fab1a.js",
+    "static/js/453.f932b604.chunk.js": "/clone_epicgames/static/js/453.f932b604.chunk.js",
+    "static/media/Grand_Theft_Auto_V_capa.png": "/clone_epicgames/static/media/Grand_Theft_Auto_V_capa.93974759451bdea88f38.png",
+    "static/media/4xJ8XB3bi888QTLZYdl7Oi0s.avif": "/clone_epicgames/static/media/4xJ8XB3bi888QTLZYdl7Oi0s.1d5237917b07bb067a41.avif",
+    "static/media/blackmyth.jpg": "/clone_epicgames/static/media/blackmyth.3941145533ffb4613e5c.jpg",
+    "static/media/Epic-Games-Simbolo-transformed.png": "/clone_epicgames/static/media/Epic-Games-Simbolo-transformed.ad46eab32d3965cb758e.png",
+    "static/media/ac-odyssey.avif": "/clone_epicgames/static/media/ac-odyssey.3e23c498c5494fefd2b8.avif",
+    "static/media/redDead.avif": "/clone_epicgames/static/media/redDead.44fff09ba12949400141.avif",
+    "static/media/globo.png": "/clone_epicgames/static/media/globo.6db79ffc5c9ef51e33fc.png",
+    "index.html": "/clone_epicgames/index.html",
+    "main.76e144ab.css.map": "/clone_epicgames/static/css/main.76e144ab.css.map",
+    "main.272fab1a.js.map": "/clone_epicgames/static/js/main.272fab1a.js.map",
+    "453.f932b604.chunk.js.map": "/clone_epicgames/static/js/453.f932b604.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76e144ab.css",
+    "static/js/main.272fab1a.js"
+  ]
+}

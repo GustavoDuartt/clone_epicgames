@@ -14,47 +14,7 @@ function Navbar() {
       title: "Assassin`s Creed",
       description: "R$ 60,00",
       clickEvent: () => {
-        console.log("Slider clicked!");
-        // Lógica adicional para o clique aqui
-      }
-  
-    },
-    {
-      image: image2,
-      title: "God of War",
-      description: "R$ 119,00",
-      clickEvent: () => {
-        console.log("Slider clicked!");
-        // Lógica adicional para o clique aqui
-      }
-  
-    },
-    {
-      image: image3,
-      title: "Grand theft auto V",
-      description: "R$ 45,00",
-      clickEvent: () => {
-        console.log("Slider clicked!");
-        // Lógica adicional para o clique aqui
-      }
-  
-    },
-    {
-      image: image4,
-      title: "Black Myth Wukong",
-      description: "Jogar",
-      clickEvent: () => {
-        console.log("Slider clicked!");
-        // Lógica adicional para o clique aqui
-      }
-  
-    },
-    {
-      image: image5,
-      title: "Red Dead Redemption II",
-      description: "R$ 105,00",
-      clickEvent: () => {
-        console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/assassins-creed-odyssey"
         // Lógica adicional para o clique aqui
       }
   
@@ -65,6 +25,51 @@ function Navbar() {
       description: "R$ 42,00",
       clickEvent: () => {
         console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/ea-sports-fc-25"
+        // Lógica adicional para o clique aqui
+      }
+  
+    },
+    {
+      image: image3,
+      title: "Grand theft auto V",
+      description: "R$ 45,00",
+      clickEvent: () => {
+        console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/grand-theft-auto-v"
+        // Lógica adicional para o clique aqui
+      }
+  
+    },
+    {
+      image: image4,
+      title: "Black Myth Wukong",
+      description: "Jogar",
+      clickEvent: () => {
+        console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/black-myth-wukong-87a72b"
+        // Lógica adicional para o clique aqui
+      }
+  
+    },
+    {
+      image: image5,
+      title: "Red Dead Redemption II",
+      description: "R$ 105,00",
+      clickEvent: () => {
+        console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/red-dead-redemption-2"
+        // Lógica adicional para o clique aqui
+      }
+  
+    },
+    {
+      image: image2,
+      title: "God of War",
+      description: "R$ 119,00",
+      clickEvent: () => {
+        console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/god-of-war-ragnarok-3ca641"
         // Lógica adicional para o clique aqui
       }
   
@@ -75,6 +80,7 @@ function Navbar() {
       description: "R$ 23,80",
       clickEvent: () => {
         console.log("Slider clicked!");
+        window.location.href = ""
         // Lógica adicional para o clique aqui
       }
   
@@ -85,6 +91,7 @@ function Navbar() {
       description: "R$ 74,80",
       clickEvent: () => {
         console.log("Slider clicked!");
+        window.location.href = ""
         // Lógica adicional para o clique aqui
       }
   
@@ -95,6 +102,7 @@ function Navbar() {
       description: "Jogar",
       clickEvent: () => {
         console.log("Slider clicked!");
+        window.location.href = "https://store.epicgames.com/pt-BR/p/valorant"
         // Lógica adicional para o clique aqui
       }
   
